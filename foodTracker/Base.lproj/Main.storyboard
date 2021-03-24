@@ -44,14 +44,16 @@
                                             <constraint firstAttribute="width" secondItem="JwI-ot-a2Z" secondAttribute="height" multiplier="1:1" id="hR8-yq-qkj"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="aSw-pZ-VQ3" appends="YES" id="8iH-gO-0xV"/>
+                                            <outletCollection property="gestureRecognizers" destination="4yz-cQ-ALP" appends="YES" id="sbu-le-2xC"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
+                                <gestureRecognizers/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="kct-1c-EVL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="0Hl-rd-fWk"/>
                             <constraint firstItem="kct-1c-EVL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hm5-30-6Zj"/>
@@ -65,9 +67,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="aSw-pZ-VQ3">
+                <tapGestureRecognizer id="4yz-cQ-ALP">
                     <connections>
-                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="Wal-Pu-cxh"/>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="VAs-73-Yag"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
