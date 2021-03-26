@@ -50,8 +50,8 @@
                                 </subviews>
                                 <gestureRecognizers/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CLz-t0-rhc" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
-                                <rect key="frame" x="20" y="318" width="56" height="56"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CLz-t0-rhc" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="318" width="252" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
