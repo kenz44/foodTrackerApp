@@ -50,6 +50,10 @@
                                 </subviews>
                                 <gestureRecognizers/>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CLz-t0-rhc" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="318" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
