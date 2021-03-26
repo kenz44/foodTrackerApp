@@ -25,18 +25,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SFI-GE-DAn">
-                                        <rect key="frame" x="0.0" y="28.5" width="136" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SFI-GE-DAn">
+                                        <rect key="frame" x="0.0" y="28.5" width="136" height="78"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="om3-wC-gAu">
-                                        <rect key="frame" x="0.0" y="76.5" width="151" height="30"/>
-                                        <state key="normal" title="Set Default Label Text"/>
-                                        <connections>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKS-2q-Fc3"/>
-                                        </connections>
-                                    </button>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="JwI-ot-a2Z">
                                         <rect key="frame" x="0.0" y="114.5" width="137.5" height="137.5"/>
                                         <gestureRecognizers/>
@@ -76,6 +69,7 @@
                         <outlet property="mealNameLabel" destination="Nvm-7z-nKd" id="Amc-HK-2fK"/>
                         <outlet property="nameTextField" destination="SFI-GE-DAn" id="T6y-2E-Dxf"/>
                         <outlet property="photoImageView" destination="JwI-ot-a2Z" id="e2D-EH-AcU"/>
+                        <outlet property="ratingControl" destination="CLz-t0-rhc" id="2kw-po-SbL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
