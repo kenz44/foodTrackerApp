@@ -16,24 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kct-1c-EVL">
-                                <rect key="frame" x="20" y="64" width="394" height="304"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kct-1c-EVL">
+                                <rect key="frame" x="20" y="64" width="380" height="488"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvm-7z-nKd">
-                                        <rect key="frame" x="0.0" y="0.0" width="86" height="20.5"/>
+                                        <rect key="frame" x="147" y="0.0" width="86" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="BLl-X5-6BK"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SFI-GE-DAn">
-                                        <rect key="frame" x="0.0" y="28.5" width="136" height="78"/>
+                                        <rect key="frame" x="0.0" y="43" width="380" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="TkJ-aa-QAy"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="JwI-ot-a2Z">
-                                        <rect key="frame" x="0.0" y="114.5" width="137.5" height="137.5"/>
+                                        <rect key="frame" x="15" y="86" width="350" height="350"/>
                                         <gestureRecognizers/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="350" id="R5J-wJ-CFR"/>
+                                            <constraint firstAttribute="width" constant="350" id="dbr-Gv-4mk"/>
                                             <constraint firstAttribute="width" secondItem="JwI-ot-a2Z" secondAttribute="height" multiplier="1:1" id="hR8-yq-qkj"/>
                                         </constraints>
                                         <connections>
@@ -41,7 +49,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CLz-t0-rhc" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="260" width="252" height="44"/>
+                                        <rect key="frame" x="64" y="444" width="252" height="44"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                                 <integer key="value" value="5"/>
@@ -51,7 +59,8 @@
                                 </subviews>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="CLz-t0-rhc" secondAttribute="trailing" constant="142" id="zUy-kF-h5s"/>
+                                    <constraint firstAttribute="trailing" secondItem="SFI-GE-DAn" secondAttribute="trailing" id="GXp-3w-mig"/>
+                                    <constraint firstAttribute="width" constant="380" id="mhv-gw-jU1"/>
                                 </constraints>
                             </stackView>
                         </subviews>
