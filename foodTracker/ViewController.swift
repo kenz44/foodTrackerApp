@@ -51,7 +51,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         
         // Dismiss the picker.
         dismiss(animated: true, completion: nil)
-        
     }
     
     //MARK: Actions
